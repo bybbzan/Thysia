@@ -1,45 +1,43 @@
-dofile('data/customFunctions.lua')
-dofile('data/killingInTheNameOfQuest.lua')
-dofile('data/achievements_lib.lua')
 dofile('data/compat.lua')
+dofile('data/libs.lua')
 
 BROWSE_POSITIONS = {
-{x = 1279, y = 1038, z = 8}, -- Quest Room
-{x = 1282, y = 1038, z = 8}, -- Quest Room
-{x = 1274, y = 1042, z = 8}, -- Quest Room
-{x = 1277, y = 1045, z = 8}, -- Quest Room
-{x = 1280, y = 1045, z = 8}, -- Quest Room
-{x = 1283, y = 1045, z = 8}, -- Quest Room
-{x = 1286, y = 1042, z = 8}, -- Quest Room
-{x = 1286, y = 1036, z = 8}, -- Quest Room
-{x = 1283, y = 1033, z = 8}, -- Quest Room
-{x = 1280, y = 1033, z = 8}, -- Quest Room
-{x = 1277, y = 1033, z = 8}, -- Quest Room
-{x = 1274, y = 1036, z = 8}, -- Quest Room
-{x = 1289, y = 1042, z = 8}, -- Quest Room
-{x = 1292, y = 1045, z = 8}, -- Quest Room
-{x = 1295, y = 1045, z = 8}, -- Quest Room
-{x = 1298, y = 1045, z = 8}, -- Quest Room
-{x = 1301, y = 1042, z = 8}, -- Quest Room
-{x = 1301, y = 1036, z = 8}, -- Quest Room
-{x = 1298, y = 1033, z = 8}, -- Quest Room
-{x = 1295, y = 1033, z = 8}, -- Quest Room
-{x = 1292, y = 1033, z = 8}, -- Quest Room
-{x = 1289, y = 1036, z = 8}, -- Quest Room
-{x = 1294, y = 1038, z = 8}, -- Quest Room
-{x = 1297, y = 1038, z = 8}, -- Quest Room
-{x = 1304, y = 1042, z = 8}, -- Quest Room
-{x = 1307, y = 1045, z = 8}, -- Quest Room
-{x = 1310, y = 1045, z = 8}, -- Quest Room
-{x = 1313, y = 1045, z = 8}, -- Quest Room
-{x = 1316, y = 1042, z = 8}, -- Quest Room
-{x = 1316, y = 1036, z = 8}, -- Quest Room
-{x = 1313, y = 1033, z = 8}, -- Quest Room
-{x = 1310, y = 1033, z = 8}, -- Quest Room
-{x = 1307, y = 1033, z = 8}, -- Quest Room
-{x = 1304, y = 1036, z = 8}, -- Quest Room
-{x = 1309, y = 1038, z = 8}, -- Quest Room
-{x = 1312, y = 1038, z = 8}  -- Quest Room
+	{x = 1279, y = 1038, z = 8}, -- Quest Room
+	{x = 1282, y = 1038, z = 8}, -- Quest Room
+	{x = 1274, y = 1042, z = 8}, -- Quest Room
+	{x = 1277, y = 1045, z = 8}, -- Quest Room
+	{x = 1280, y = 1045, z = 8}, -- Quest Room
+	{x = 1283, y = 1045, z = 8}, -- Quest Room
+	{x = 1286, y = 1042, z = 8}, -- Quest Room
+	{x = 1286, y = 1036, z = 8}, -- Quest Room
+	{x = 1283, y = 1033, z = 8}, -- Quest Room
+	{x = 1280, y = 1033, z = 8}, -- Quest Room
+	{x = 1277, y = 1033, z = 8}, -- Quest Room
+	{x = 1274, y = 1036, z = 8}, -- Quest Room
+	{x = 1289, y = 1042, z = 8}, -- Quest Room
+	{x = 1292, y = 1045, z = 8}, -- Quest Room
+	{x = 1295, y = 1045, z = 8}, -- Quest Room
+	{x = 1298, y = 1045, z = 8}, -- Quest Room
+	{x = 1301, y = 1042, z = 8}, -- Quest Room
+	{x = 1301, y = 1036, z = 8}, -- Quest Room
+	{x = 1298, y = 1033, z = 8}, -- Quest Room
+	{x = 1295, y = 1033, z = 8}, -- Quest Room
+	{x = 1292, y = 1033, z = 8}, -- Quest Room
+	{x = 1289, y = 1036, z = 8}, -- Quest Room
+	{x = 1294, y = 1038, z = 8}, -- Quest Room
+	{x = 1297, y = 1038, z = 8}, -- Quest Room
+	{x = 1304, y = 1042, z = 8}, -- Quest Room
+	{x = 1307, y = 1045, z = 8}, -- Quest Room
+	{x = 1310, y = 1045, z = 8}, -- Quest Room
+	{x = 1313, y = 1045, z = 8}, -- Quest Room
+	{x = 1316, y = 1042, z = 8}, -- Quest Room
+	{x = 1316, y = 1036, z = 8}, -- Quest Room
+	{x = 1313, y = 1033, z = 8}, -- Quest Room
+	{x = 1310, y = 1033, z = 8}, -- Quest Room
+	{x = 1307, y = 1033, z = 8}, -- Quest Room
+	{x = 1304, y = 1036, z = 8}, -- Quest Room
+	{x = 1309, y = 1038, z = 8}, -- Quest Room
+	{x = 1312, y = 1038, z = 8}  -- Quest Room
 }
 
 TRUE = true

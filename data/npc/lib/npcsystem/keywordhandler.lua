@@ -72,13 +72,14 @@ if KeywordHandler == nil then
 
 	KeywordHandler = {
 		root = nil,
-		lastNode = {}
+		lastNode = nil
 	}
 
 	-- Creates a new keywordhandler with an empty rootnode.
 	function KeywordHandler:new()
 		local obj = {}
 		obj.root = KeywordNode:new(nil, nil, nil)
+		obj.lastNode = {}
 		setmetatable(obj, self)
 		self.__index = self
 		return obj
@@ -125,7 +126,7 @@ if KeywordHandler == nil then
 	-- Tries to process the given message using the node parameter's children and calls the node's callback function if found.
 	--	Returns the childNode which processed the message or nil if no such node was found.
 	function KeywordHandler:processNodeMessage(node, cid, message)
-		local messageLower = string.lower(message)
+		local messageLower = message:lower()
 		for i, childNode in pairs(node.children) do
 			if childNode:checkMessage(messageLower) then
 				local oldLast = self.lastNode[cid]

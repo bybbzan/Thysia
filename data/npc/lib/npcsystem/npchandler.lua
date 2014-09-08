@@ -332,10 +332,10 @@ if NpcHandler == nil then
 	end
 
 	-- Greets a new player.
-	function NpcHandler:greet(cid)
+	function NpcHandler:greet(cid, message)
 		if cid ~= 0  then
 			local callback = self:getCallback(CALLBACK_GREET)
-			if callback == nil or callback(cid) then
+			if callback == nil or callback(cid, message) then
 				if self:processModuleCallback(CALLBACK_GREET, cid) then
 					local msg = self:getMessage(MESSAGE_GREET)
 					local parseInfo = { [TAG_PLAYERNAME] = Player(cid):getName() }
@@ -353,13 +353,19 @@ if NpcHandler == nil then
 
 	-- Handles onCreatureAppear events. If you with to handle this yourself, please use the CALLBACK_CREATURE_APPEAR callback.
 	function NpcHandler:onCreatureAppear(cid)
-		if cid == getNpcCid() and next(self.shopItems) ~= nil then
+		if cid == getNpcCid() then
 			local npc = Npc()
-			local speechBubble = npc:getSpeechBubble()
-			if speechBubble == 3 then
-				npc:setSpeechBubble(4)
+			if next(self.shopItems) then
+				local speechBubble = npc:getSpeechBubble()
+				if speechBubble == 3 then
+					npc:setSpeechBubble(4)
+				else
+					npc:setSpeechBubble(2)
+				end
 			else
-				npc:setSpeechBubble(2)
+				if self:getMessage(MESSAGE_GREET) then
+					npc:setSpeechBubble(1)
+				end
 			end
 		end
 
@@ -500,10 +506,10 @@ if NpcHandler == nil then
 	end
 
 	-- Tries to greet the player with the given cid.
-	function NpcHandler:onGreet(cid)
+	function NpcHandler:onGreet(cid, message)
 		if self:isInRange(cid) then
 			if not self:isFocused(cid) then
-				self:greet(cid)
+				self:greet(cid, message)
 				return
 			end
 		end
@@ -608,6 +614,16 @@ if NpcHandler == nil then
 		end
 
 		stopEvent(self.eventSay[focus])
-		self.eventSay[focus] = addEvent(function(x) if isPlayer(x[3]) then doCreatureSay(x[1], x[2], TALKTYPE_PRIVATE_NP, false, x[3], getCreaturePosition(x[1])) end end, self.talkDelayTime * 1000, {getNpcCid(), message, focus})
+		self.eventSay[focus] = addEvent(function(npcId, message, focusId)
+			local npc = Npc(npcId)
+			if npc == nil then
+				return
+			end
+
+			local player = Player(focusId)
+			if player then
+				npc:say(message, TALKTYPE_PRIVATE_NP, false, player, npc:getPosition())
+			end
+		end, self.talkDelayTime * 1000, Npc():getId(), message, focus)
 	end
 end
