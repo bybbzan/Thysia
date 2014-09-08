@@ -11,7 +11,7 @@ function onStepIn(cid, item, position, fromPosition)
     end
     if ze_started == started then
         player:sendTextMessage(MESSAGE_INFO_DESCR, "The zombie event has already been started.")
-		fromPosition:sendMagicEffect(CONST_ME_TELEPORT)        
+	fromPosition:sendMagicEffect(CONST_ME_TELEPORT)        
         player:teleportTo(fromPosition, true)
         return false
     end
@@ -24,11 +24,11 @@ function onStepIn(cid, item, position, fromPosition)
         else
             player:teleportTo(fromPosition, true)
             player:sendTextMessage(MESSAGE_INFO_DESCR, "I'm sorry, but the zombie event is currently full. ["..ze_joined_count.."/"..ze_max_players.."]")
-    		fromPosition:sendMagicEffect(CONST_ME_TELEPORT)        
+    	    fromPosition:sendMagicEffect(CONST_ME_TELEPORT)        
         end
     else
         player:sendTextMessage(MESSAGE_INFO_DESCR, "The zombie event has not started yet.")
-		fromPosition:sendMagicEffect(CONST_ME_TELEPORT)        
+	fromPosition:sendMagicEffect(CONST_ME_TELEPORT)        
         player:teleportTo(fromPosition, true)
     end
 end
