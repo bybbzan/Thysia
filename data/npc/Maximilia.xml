@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Maximilia" script="default.lua" walkinterval="1500" speed="100" walkradius="1" floorchange="0" speechbubble="2">
+	<health max="100" now="100"/>
+	<look type="141" head="72" body="76" legs="95" feet="115" addons="3" mount="0"/>
+	<parameters>
+		<!--MESSAGES-->
+		<parameter key="message_greet" value="Hello dear |PLAYERNAME|. Do you want to {trade}?"/>
+		<parameter key="message_farewell" value="See you around!"/>
+		<parameter key="message_buy" value="So, you want to buy |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?"/>
+		<parameter key="message_onbuy" value="Thank you."/>
+		<parameter key="message_bought" value="Bought |ITEMCOUNT|x |ITEMNAME| for |TOTALCOST| gold."/>
+		<parameter key="message_sell" value="So, you want to sell |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?"/>
+		<parameter key="message_onsell" value="Here you are, |TOTALCOST| gold."/>
+		<parameter key="message_sold" value="Sold |ITEMCOUNT|x |ITEMNAME| for |TOTALCOST| gold."/>
+		<parameter key="message_missingmoney" value="You need more money."/>
+		<parameter key="message_needmoney" value="You need more money."/>
+		<parameter key="message_missingitem" value="You don't have so many."/>
+		<parameter key="message_needitem" value="You do not have this object."/>
+		<parameter key="message_needspace" value="You do not have enough capacity."/>
+		<parameter key="message_needmorespace" value="You do not have enough capacity for all the items."/>
+		<parameter key="message_idletimeout" value="See you around!"/>
+		<parameter key="message_decline" value="Maybe another time."/>
+		<parameter key="message_sendtrade" value="Of course, take a look at my offers."/>
+		<parameter key="message_noshop" value="Sorry, I'm not offering anything. "/>
+		<parameter key="message_oncloseshop" value="Let me know if you need anything else."/>
+		<parameter key="message_alreadyfocused" value="|PLAYERNAME|, I am talking to you already."/>
+		<parameter key="message_walkaway_male" value="Good bye, sir!"/>
+		<parameter key="message_walkaway_female" value="Good bye, ma'am!"/>
+		<!--KEYWORDS-->
+		<parameter key="module_keywords" value="1"/>
+		<parameter key="keywords" value="fuck;asd"/>
+		<parameter key="keyword_reply1" value="Go wash your mouth!"/>
+		<parameter key="keyword_reply2" value="What are you trying to say?"/>
+		<!--SHOP-->
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_buyable" value="avalanche rune,2274,45;blank rune,2260,10;chameleon rune,2291,210;convince creature rune,2290,80;cure poison rune,2266,65;destroy field rune,2261,15;energy field rune,2277,38;energy wall rune,2279,85;explosion rune,2313,31;fire bomb rune,2305,117;fire field rune,2301,28;fire wall rune,2303,61;great fireball rune,2304,45;great health potion,7591,190;great mana potion,7590,120;great spirit potion,8472,190;hailstorm rod,2183,15000;health potion,7618,45;heavy magic missile rune,2311,12;intense healing rune,2265,95;light magic missile rune,2287,4;mana potion,7620,50;moonlight rod,2186,1000;necrotic rod,2185,5000;northwind rod,8911,7500;poison field rune,2285,21;poison wall rune,2289,52;snakebite rod,2182,500;spellbook,2175,150;springsprout rod,8912,18000;stalagmite rune,2292,12;strong health potion,7588,100;strong mana potion,7589,80;sudden death rune,2268,108;terra rod,2181,10000;ultimate healing rune,2273,175;ultimate health potion,8473,310;underworld rod,8910,22000;wand of cosmic energy,2189,10000;wand of decay,2188,5000;wand of draconia,8921,7500;wand of dragonbreath,2191,1000;wand of inferno,2187,15000;wand of starstorm,8920,18000;wand of voodoo,8922,22000;wand of vortex,2190,500;thunderstorm rune,2315,37;wild growth rune,2269,160;icicle rune,2271,30;energy bomb rune,2262,162;fireball rune,2302,30;animate dead rune,2316,375"/>
+		<parameter key="shop_sellable" value="spellbook of enlightenment,8900,4000;spellbook of lost souls,8903,19000;spellbook of mind control,8902,13000;spellbook of warding,8901,8000;empty potion flask,7634,5;empty potion flask,7635,5;empty potion flask,7636,5;vial,2006,5"/>
+	</parameters>
+</npc>

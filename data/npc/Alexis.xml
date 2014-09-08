@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Alexis" script="default.lua" walkinterval="1500" speed="100" walkradius="1" floorchange="0" speechbubble="2">
+	<health max="100" now="100"/>
+	<look type="129" head="78" body="115" legs="115" feet="78" addons="3" mount="0"/>
+	<parameters>
+		<!--MESSAGES-->
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I sell all kind of distance weapons and ammunition. Just ask me for a {trade}."/>
+		<parameter key="message_farewell" value="Good bye, |PLAYERNAME|."/>
+		<parameter key="message_buy" value="Do you want to buy |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?"/>
+		<parameter key="message_onbuy" value="Here you are."/>
+		<parameter key="message_bought" value="Bought |ITEMCOUNT|x |ITEMNAME| for |TOTALCOST| gold."/>
+		<parameter key="message_sell" value="Do you want to sell |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?"/>
+		<parameter key="message_onsell" value="Here you are, |TOTALCOST| gold."/>
+		<parameter key="message_sold" value="Sold |ITEMCOUNT|x |ITEMNAME| for |TOTALCOST| gold."/>
+		<parameter key="message_missingmoney" value="You don't have enough money."/>
+		<parameter key="message_needmoney" value="You don't have enough money."/>
+		<parameter key="message_missingitem" value="You don't have so many."/>
+		<parameter key="message_needitem" value="You do not have this object."/>
+		<parameter key="message_needspace" value="You do not have enough capacity."/>
+		<parameter key="message_needmorespace" value="You do not have enough capacity for all items."/>
+		<parameter key="message_idletimeout" value="Good bye."/>
+		<parameter key="message_decline" value="Then not."/>
+		<parameter key="message_sendtrade" value="Let's do it!"/>
+		<parameter key="message_noshop" value="Sorry, I'm not offering anything."/>
+		<parameter key="message_oncloseshop" value="Thank you, come back whenever you're in need of something else."/>
+		<parameter key="message_alreadyfocused" value="|PLAYERNAME|, I am already talking to you."/>
+		<parameter key="message_walkaway_male" value="Good bye."/>
+		<parameter key="message_walkaway_female" value="Good bye."/>
+		<!--KEYWORDS-->
+		<parameter key="module_keywords" value="1"/>
+		<parameter key="keywords" value="fuck"/>
+		<parameter key="keyword_reply1" value="Watch your tounge!"/>
+		<!--SHOP-->
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_buyable" value="arrow,2544,3;bolt,2543,4;bow,2456,400;crossbow,2455,500;crystalline arrow,18304,20;drill bolt,18436,12;earth arrow,7850,5;envenomed arrow,18437,12;flaming arrow,7840,5;flash arrow,7838,5;onyx arrow,7365,7;piercing bolt,7363,5;power bolt,2547,7;prismatic bolt,18435,20;royal spear,7378,15;shiver arrow,7839,5;sniper arrow,7364,5;spear,2389,9;tarsal arrow,15648,6;throwing star,2399,42;vortex bolt,15649,6"/>
+		<parameter key="shop_sellable" value="crossbow,2455,120;bow,2456,100"/>
+	</parameters>
+</npc>

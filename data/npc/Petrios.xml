@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Petrios" script="Petrios.lua" walkinterval="1500" speed="100" walkradius="2" floorchange="0" speechbubble="1">
+	<health max="1200" now="1200"/>
+	<look type="132" head="78" body="42" legs="0" feet="116" addons="1" mount="0"/>
+	<parameters>
+		<!--KEYWORDS-->
+		<parameter key="module_keywords" value="1"/>
+		<parameter key="keywords" value="fuck"/>
+		<parameter key="keyword_reply1" value="Watch your tounge kid!"/>
+	</parameters>
+</npc>

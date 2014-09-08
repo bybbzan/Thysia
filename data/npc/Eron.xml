@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Eron" script="Eron.lua" walkinterval="1500" speed="100" walkradius="2" floorchange="0" speechbubble="2">
+	<health max="2150" now="2150"/>
+	<look type="131" head="78" body="40" legs="98" feet="76" addons="1" mount="0"/>
+	<parameters>
+		<!--MESSAGES-->
+		<parameter key="message_greet" value="Hello |PLAYERNAME| and welcome to my {blacksmith}! Just ask me for a {trade}."/>
+		<parameter key="message_farewell" value="Good bye, |PLAYERNAME|."/>
+		<parameter key="message_buy" value="Do you want to buy |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?"/>
+		<parameter key="message_onbuy" value="Here you are."/>
+		<parameter key="message_bought" value="Bought |ITEMCOUNT|x |ITEMNAME| for |TOTALCOST| gold."/>
+		<parameter key="message_sell" value="Do you want to sell |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?"/>
+		<parameter key="message_onsell" value="Here you are, |TOTALCOST| gold."/>
+		<parameter key="message_sold" value="Sold |ITEMCOUNT|x |ITEMNAME| for |TOTALCOST| gold."/>
+		<parameter key="message_missingmoney" value="I'm sorry but you don't have enough money."/>
+		<parameter key="message_needmoney" value="You don't have enough money."/>
+		<parameter key="message_missingitem" value="You don't have so many."/>
+		<parameter key="message_needitem" value="You do not have this object."/>
+		<parameter key="message_needspace" value="You do not have enough capacity."/>
+		<parameter key="message_needmorespace" value="You do not have enough capacity for all the items."/>
+		<parameter key="message_idletimeout" value="Good bye."/>
+		<parameter key="message_decline" value="Then not."/>
+		<parameter key="message_sendtrade" value="Of course, just browse through my wares."/>
+		<parameter key="message_oncloseshop" value="Thank you, come back whenever you're in need of something else."/>
+		<parameter key="message_alreadyfocused" value="|PLAYERNAME|, I am already talking to you."/>
+		<parameter key="message_walkaway_male" value="Good bye sir!"/>
+		<parameter key="message_walkaway_female" value="Good bye madam!"/>
+		<!--KEYWORDS-->
+		<parameter key="module_keywords" value="1"/>
+		<parameter key="keywords" value="blacksmith"/>
+		<parameter key="keyword_reply1" value="This used to be one of the finest blacksmith in the whole land."/>
+		<!--SHOP-->
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_buyable" value="axe,2386,20;battleaxe,2378,235;battlehammer,2417,350;bonesword,2450,75;brassarmor,2465,450;brasshelmet,2460,120;brasslegs,2478,195;brassshield,2511,65;carlinsword,2395,475;chainarmor,2464,200;chainhelmet,2458,52;chainlegs,2648,80;club,2382,5;coat,2651,8;crowbar,2416,260;dagger,2379,5;doublet,2485,16;dwarvenshield,2525,500;handaxe,2380,8;ironhelmet,2459,390;jacket,2650,12;leatherarmor,2467,35;leatherboots,2643,10;leatherhelmet,2461,12;leatherlegs,2649,10;longsword,2397,160;mace,2398,90;morningstar,2394,430;platearmor,2463,890;plateshield,2510,125;rapier,2384,15;sabre,2385,35;scalearmor,2483,260;shortsword,2406,26;sickle,2405,7;soldierhelmet,2481,110;spikesword,2383,5000;steelhelmet,2457,550;steelshield,2509,240;studdedarmor,2484,90;studdedhelmet,2482,63;studdedlegs,2468,50;studdedshield,2526,50;sword,2376,85;throwingknife,2410,35;twohandedsword,2377,950;vikinghelmet,2473,265;vikingshield,2531,260;woodenshield,2512,15"/>
+		<parameter key="shop_sellable" value="axe,2386,7;battleaxe,2378,80;battlehammer,2417,120;battleshield,2513,95;boneclub,2449,10;bonesword,2450,25;brassarmor,2465,150;brasshelmet,2460,30;brasslegs,2478,50;brassshield,2511,25;carlinsword,2395,118;chainarmor,2464,70;chainhelmet,2458,17;chainlegs,2648,25;club,2382,1;coat,2651,1;coppershield,2530,50;crowbar,2416,50;dagger,2379,2;doubleaxe,2387,260;doublet,2485,3;dwarvenshield,2525,200;firesword,2392,1500;halberd,2381,500;handaxe,2380,5;hatchet,2388,25;ironhelmet,2459,150;jacket,2650,1;katana,2412,35;leatherarmor,2467,12;leatherboots,2643,5;leatherhelmet,2461,5;leatherlegs,2649,10;legionhelmet,2480,25;longsword,2397,50;mace,2398,30;magicplatearmor,2472,110000;morningstar,2394,100;orcishaxe,2428,350;platearmor,2463,400;platelegs,2647,115;plateshield,2510,45;rapier,2384,5;sabre,2385,12;scalearmor,2483,75;shortsword,2406,10;sickle,2405,3;smallaxe,2559,5;soldierhelmet,2481,16;spikesword,2383,350;steelhelmet,2457,300;steelshield,2509,80;studdedarmor,2484,25;studdedclub,2448,10;studdedhelmet,2482,20;studdedlegs,2468,15;studdedshield,2526,16;swamplingclub,20104,40;sword,2376,25;throwingknife,2410,2;twohandedsword,2377,450;vikinghelmet,2473,65;vikingshield,2531,85;warhammer,2391,470;woodenshield,2512,5"/>
+	</parameters>
+</npc>

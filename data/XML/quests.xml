@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quests>
+
+<!-- Unused
+<quest name="Taina's Tasks" startstorageid="1000" startstoragevalue="1">
+        <mission name="Troll Task" storageid="1001" startvalue="0" endvalue="45" description="You have slain |STATE|/45 Trolls. Go talk to Taina again once you're finished." />
+		    <mission name="Troll Task" storageid="1001" startvalue="46" endvalue="46" description="You have succesfully slained 45 Trolls. Ask Taina for another task, she might have something for you." />
+        <mission name="Rotworm Task" storageid="1002" startvalue="0" endvalue="60" description="You have slain |STATE|/60 Rotworms. Go talk to Taina again once you're finished." />
+			<mission name="Rotworm Task" storageid="1002" startvalue="61" endvalue="61" description="You have succesfully slained 60 Rotworms." />
+    </quest>
+
+<quest name="Eron's Tasks" startstorageid="1003" startstoragevalue="1">
+        <mission name="Dragon Task" storageid="1004" startvalue="0" endvalue="50" description="You have slain |STATE|/50 Dragons. Go talk to Eron again once you're finished." />
+		    <mission name="Dragon Task" storageid="1004" startvalue="51" endvalue="51" description="You have succesfully slained 50 Dragons. Ask Eron for another task, he might have something more for you." />
+        <mission name="Dragon Lord Task" storageid="1005" startvalue="0" endvalue="60" description="You have slain |STATE|/60 Dragon Lords. Go talk to Eron again once you're finished." />
+			<mission name="Dragon Lord Task" storageid="1005" startvalue="61" endvalue="61" description="You have succesfully slained 60 Dragon Lords. Go to Eron and claim your reward." />
+    </quest> -->
+	
+<quest name="Taina's Task Society" startstorageid="100157" startstoragevalue="1">
+
+	<!-- Task Society Ranks -->
+		<mission name="Task Rank: Member" storageid="2500" startvalue="0" endvalue="10" description="You are member of the Task Society hunting elite. You currently have |STATE| Task Society points." />
+		<mission name="Task Rank: Ranger" storageid="2500" startvalue="11" endvalue="20" description="You are Ranger of the Task Society hunting elite. You currently have |STATE| Task Society points." />
+		<mission name="Task Rank: Big Game Hunter" storageid="2500" startvalue="21" endvalue="40" description="You are Big Game Hunter in the Task Society hunting elite. You currently have |STATE| Task Society points." />
+		<mission name="Task Rank: Trophy Hunter" storageid="2500" startvalue="41" endvalue="70" description="You are Trophy Hunter in the Task Society hunting elite. You currently have |STATE| Task Society points. Ask Taina for {special task} she might have something for you." />
+		<mission name="Task Rank: Elite Hunter" storageid="2500" startvalue="71" endvalue="100" description="You have obtained the highest possible rank in the Task Society hunting elite, you are Elite Hunter. You currently have |STATE| Task Society points. Ask Taina for {special task} she might have something for you." />
+
+	<!-- Task Bosses -->
+		<mission name="Task Society Boss: Hide" storageid="35001" startvalue="1" endvalue="2" description="Find its hideout and kill it." />
+		<mission name="Task Society Boss: Deathbine" storageid="35002" startvalue="1" endvalue="2" description="Find its hideout and kill it." />
+		<mission name="Task Society Boss: Fleshcrawler" storageid="35006" startvalue="1" endvalue="2" description="Find its hideout and kill it." />
+		<mission name="Task Society Boss: Thul" storageid="35009" startvalue="1" endvalue="2" description="Find its hideout and kill it." />
+		<mission name="Task Society Boss: The Old Widow" storageid="35010" startvalue="1" endvalue="2" description="Find its hideout and kill it." />
+		<mission name="Task Society Boss: Tormentor" storageid="35012" startvalue="1" endvalue="2" description="Find its hideout and kill it." />
+		<mission name="Task Society Boss: Flameborn" storageid="35013" startvalue="1" endvalue="2" description="Find its hideout and kill it." />
+		<mission name="Task Society Boss: Fazzrah" storageid="35014" startvalue="1" endvalue="2" description="F its hideout and kill it." />
+		<mission name="Task Society Boss: The Many" storageid="35018" startvalue="1" endvalue="2" description="Find its hideout and kill it." />
+		<mission name="Task Society Boss: The Noxious Spawn" storageid="35019" startvalue="1" endvalue="2" description="Find its hideout and kill it." />
+		<mission name="Task Society Boss: Gorgo" storageid="35020" startvalue="1" endvalue="2" description="Find its hideout and kill it." />
+		<mission name="Task Society Boss: Stonecracker" storageid="35021" startvalue="1" endvalue="2" description="Find its hideout and kill it." />
+		<mission name="Task Society Boss: Leviathan" storageid="35022" startvalue="1" endvalue="2" description="Find its hideout and kill it." />
+		<mission name="Task Society Boss: Kerberos" storageid="35023" startvalue="1" endvalue="2" description="Find its hideout and kill it." />
+		<mission name="Task Society Boss: Ethershreck" storageid="35024" startvalue="1" endvalue="2" description="Find its hideout and kill it." />
+		<mission name="Task Society Boss: Paiz the Pauperizer" storageid="35025" startvalue="1" endvalue="2" description="Find its hideout and kill it." />
+		<mission name="Task Society Boss: Zanakeph" storageid="35027" startvalue="1" endvalue="2" description="Find its hideout and kill it." />
+		
+	<!-- New Task Bosses-->	
+		<mission name="Task Society Boss: Uruk'Hai" storageid="37001" startvalue="1" endvalue="2" description="Find its hideout and kill it." />
+		<mission name="Task Society Boss: Flameborn Foulscale" storageid="37002" startvalue="1" endvalue="2" description="Find its hideout and kill it." />
+		<mission name="Task Society Boss: Fire Overlord" storageid="37003" startvalue="1" endvalue="2" description="Find its hideout and kill it." />
+		<mission name="Task Society Boss: Sir Desrik" storageid="37004" startvalue="1" endvalue="2" description="Find its hideout and kill it." />
+		<mission name="Task Society Boss: Mr.Punish" storageid="37005" startvalue="1" endvalue="2" description="Find its hideout and kill it." />
+		<mission name="Task Society Boss: Dementor" storageid="37006" startvalue="1" endvalue="2" description="Find its hideout and kill it." />
+		<mission name="Task Society Boss: Obujos" storageid="37007" startvalue="1" endvalue="2" description="Find its hideout and kill it." />
+		<mission name="Task Society Boss: Hirintror" storageid="37008" startvalue="1" endvalue="2" description="Find its hideout and kill it." />
+		<mission name="Task Society Boss: Zarabustor" storageid="37009" startvalue="1" endvalue="2" description="Find its hideout and kill it." />
+		
+    <!-- Tasks -->
+		<mission name="Task Society: Orcs" storageid="65001" startvalue="0" endvalue="500" description="You already hunted |STATE|/500 orcs." />
+		<mission name="Task Society: Tarantulas" storageid="65002" startvalue="0" endvalue="300" description="You already hunted |STATE|/300 tarantulas." />
+		<mission name="Task Society: Carniphilas" storageid="65003" startvalue="0" endvalue="150" description="You already hunted |STATE|/150 carniphilas." />
+		<mission name="Task Society: Apes" storageid="65004" startvalue="0" endvalue="300" description="You already hunted |STATE|/300 apes." />
+		<mission name="Task Society: Heroes" storageid="65005" startvalue="0" endvalue="200" description="You already hunted |STATE|/200 heroes." />
+		<mission name="Task Society: Dragons" storageid="65006" startvalue="0" endvalue="150" description="You already hunted |STATE|/150 dragons." />
+		<mission name="Task Society: Quara Scouts" storageid="65007" startvalue="0" endvalue="400" description="You already hunted |STATE|/400 quara scouts." />
+		<mission name="Task Society: Warlocks" storageid="65008" startvalue="0" endvalue="150" description="You already hunted |STATE|/150 warlocks." />
+		<mission name="Task Society: Ancient Scarabs" storageid="65009" startvalue="0" endvalue="250" description="You already hunted |STATE|/250 ancient scarabs." />
+		<mission name="Task Society: Underwater Quara" storageid="65010" startvalue="0" endvalue="600" description="You already hunted |STATE|/600 underwater quara." />
+		<mission name="Task Society: Giant Spiders" storageid="65011" startvalue="0" endvalue="500" description="You already hunted |STATE|/500 giant spiders." />
+		<mission name="Task Society: Nightmares" storageid="65012" startvalue="0" endvalue="400" description="You already hunted |STATE|/400 nightmares." />
+		<mission name="Task Society: Hellspawns" storageid="65013" startvalue="0" endvalue="600" description="You already hunted |STATE|/600 hellspawns." />
+		<mission name="Task Society: High Class Lizards" storageid="65014" startvalue="0" endvalue="800" description="You already hunted |STATE|/800 high class lizards." />
+		<mission name="Task Society: Hydras" storageid="65015" startvalue="0" endvalue="650" description="You already hunted |STATE|/650 hydras." />
+		<mission name="Task Society: Serpent Spawns" storageid="65016" startvalue="0" endvalue="800" description="You already hunted |STATE|/800 serpent spawns." />
+		<mission name="Task Society: Medusas" storageid="65017" startvalue="0" endvalue="500" description="You already hunted |STATE|/500 medusas." />
+		<mission name="Task Society: Dark Torturers" storageid="65018" startvalue="0" endvalue="250" description="You already hunted |STATE|/250 dark torturers." />
+		<mission name="Task Society: Behemoths" storageid="65019" startvalue="0" endvalue="700" description="You already hunted |STATE|/700 behemoths." />
+        <mission name="Task Society: Frost Dragons" storageid="65020" startvalue="0" endvalue="300" description="You already hunted |STATE|/300 frost dragons." />
+		<mission name="Task Society: Sea Serpents and Young Sea Serpents" storageid="65021" startvalue="0" endvalue="900" description="You already hunted |STATE|/900 sea serpents and young sea serpents." />
+		<mission name="Task Society: Grim Reapers" storageid="65022" startvalue="0" endvalue="300" description="You already hunted |STATE|/300 grim reapers." />
+		<mission name="Task Society: Deeplings" storageid="65023" startvalue="0" endvalue="400" description="You already hunted |STATE|/400 deeplings." />
+		<mission name="Task Society: Hellhounds" storageid="65024" startvalue="0" endvalue="250" description="You already hunted |STATE|/250 hellhounds." />
+		<mission name="Task Society: Hellfire Fighters" storageid="65025" startvalue="0" endvalue="300" description="You already hunted |STATE|/300 hellfire fighters." />
+		<mission name="Task Society: Ghastly Dragons" storageid="65026" startvalue="0" endvalue="500" description="You already hunted |STATE|/500 ghastly dragons." />
+		<mission name="Task Society: Drakens" storageid="65027" startvalue="0" endvalue="900" description="You already hunted |STATE|/900 drakens." />
+		<mission name="Task Society: Undead Dragons" storageid="65028" startvalue="0" endvalue="400" description="You already hunted |STATE|/400 undead dragons." />
+		
+	<!-- Special Tasks -->
+		<mission name="Task Society: Demons" storageid="65029" startvalue="0" endvalue="6666" description="You already hunted |STATE|/6666 demons." />
+		<mission name="Task Society: Pirates" storageid="65030" startvalue="0" endvalue="3000" description="You already hunted |STATE|/3000 pirates." />
+		<mission name="Task Society: Pirates Second" storageid="65031" startvalue="0" endvalue="3000" description="You already hunted |STATE|/3000 pirates." />
+		<mission name="Task Society: Minotaurs" storageid="65032" startvalue="0" endvalue="5000" description="You already hunted |STATE|/5000 minotaurs." />
+		<mission name="Task Society: Necromancers and Priestess" storageid="65033" startvalue="0" endvalue="4000" description="You already hunted |STATE|/4000 necromancers and priestess." />
+	</quest>
+</quests>

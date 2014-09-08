@@ -1,0 +1,481 @@
+<?xml version="1.0"?>
+<spawns>
+	<spawn centerx="1032" centery="784" centerz="2" radius="1">
+		<monster name="Seagull" x="0" y="-1" z="2" spawntime="60" />
+		<monster name="Seagull" x="0" y="1" z="2" spawntime="60" />
+	</spawn>
+	<spawn centerx="1047" centery="785" centerz="2" radius="1">
+		<monster name="Seagull" x="0" y="-1" z="2" spawntime="60" />
+	</spawn>
+	<spawn centerx="1036" centery="788" centerz="3" radius="1">
+		<monster name="Dragon" x="1" y="0" z="3" spawntime="60" />
+		<monster name="Elf Arcanist" x="-1" y="1" z="3" spawntime="60" />
+	</spawn>
+	<spawn centerx="1038" centery="791" centerz="3" radius="1">
+		<monster name="Elf Arcanist" x="-1" y="0" z="3" spawntime="60" />
+	</spawn>
+	<spawn centerx="1037" centery="786" centerz="4" radius="1">
+		<monster name="Elf Scout" x="0" y="1" z="4" spawntime="60" />
+	</spawn>
+	<spawn centerx="1039" centery="789" centerz="4" radius="1">
+		<monster name="Elf Arcanist" x="-1" y="-1" z="4" spawntime="60" />
+		<monster name="Elf" x="0" y="-1" z="4" spawntime="60" />
+		<monster name="Elf Arcanist" x="1" y="1" z="4" spawntime="60" />
+	</spawn>
+	<spawn centerx="1034" centery="790" centerz="4" radius="1">
+		<monster name="Elf Arcanist" x="1" y="0" z="4" spawntime="60" />
+	</spawn>
+	<spawn centerx="1038" centery="791" centerz="4" radius="1">
+		<monster name="Elf Scout" x="-1" y="0" z="4" spawntime="60" />
+	</spawn>
+	<spawn centerx="1038" centery="787" centerz="5" radius="1">
+		<monster name="Elf Arcanist" x="-1" y="0" z="5" spawntime="60" />
+		<monster name="Elf" x="1" y="0" z="5" spawntime="60" />
+		<monster name="Elf" x="-1" y="1" z="5" spawntime="60" />
+	</spawn>
+	<spawn centerx="1035" centery="790" centerz="5" radius="1">
+		<monster name="Elf Scout" x="0" y="-1" z="5" spawntime="60" />
+		<monster name="Elf" x="1" y="1" z="5" spawntime="60" />
+	</spawn>
+	<spawn centerx="1040" centery="790" centerz="5" radius="1">
+		<monster name="Elf Arcanist" x="-1" y="0" z="5" spawntime="60" />
+	</spawn>
+	<spawn centerx="1036" centery="783" centerz="6" radius="1">
+		<monster name="Elf Arcanist" x="-1" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1036" centery="789" centerz="6" radius="1">
+		<monster name="Elf" x="-1" y="0" z="6" spawntime="60" />
+		<monster name="Elf" x="0" y="1" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1039" centery="791" centerz="6" radius="1">
+		<monster name="Elf" x="-1" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1041" centery="793" centerz="6" radius="1">
+		<monster name="Elf Scout" x="-1" y="1" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1036" centery="795" centerz="6" radius="1">
+		<monster name="Elf Scout" x="0" y="-1" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1040" centery="802" centerz="6" radius="1">
+		<monster name="Elf Scout" x="1" y="-1" z="6" spawntime="60" />
+		<monster name="Elf" x="-1" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1042" centery="806" centerz="6" radius="1">
+		<monster name="Elf" x="-1" y="0" z="6" spawntime="60" />
+		<monster name="Rabbit" x="-1" y="1" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1038" centery="814" centerz="6" radius="1">
+		<monster name="Elf" x="1" y="-1" z="6" spawntime="60" />
+		<monster name="Elf" x="-1" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1042" centery="822" centerz="6" radius="1">
+		<monster name="Elf Scout" x="-1" y="0" z="6" spawntime="60" />
+		<monster name="Elf Scout" x="1" y="1" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1062" centery="822" centerz="6" radius="1">
+		<monster name="Elf" x="-1" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1051" centery="823" centerz="6" radius="1">
+		<monster name="Elf" x="0" y="1" z="6" spawntime="60" />
+		<monster name="Elf" x="1" y="1" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1057" centery="824" centerz="6" radius="1">
+		<monster name="Elf Scout" x="-1" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1062" centery="825" centerz="6" radius="1">
+		<monster name="Elf Arcanist" x="1" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1025" centery="830" centerz="6" radius="1">
+		<monster name="Elf Scout" x="0" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1044" centery="831" centerz="6" radius="1">
+		<monster name="Elf" x="0" y="1" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1049" centery="831" centerz="6" radius="1">
+		<monster name="Elf Scout" x="-1" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1053" centery="831" centerz="6" radius="1">
+		<monster name="Elf Scout" x="1" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1057" centery="832" centerz="6" radius="1">
+		<monster name="Elf" x="0" y="-1" z="6" spawntime="60" />
+		<monster name="Elf" x="-1" y="1" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1026" centery="833" centerz="6" radius="1">
+		<monster name="Elf" x="0" y="-1" z="6" spawntime="60" />
+		<monster name="Elf" x="-1" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1034" centery="843" centerz="6" radius="1">
+		<monster name="Elf" x="0" y="-1" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1036" centery="844" centerz="6" radius="1">
+		<monster name="Elf Scout" x="1" y="-1" z="6" spawntime="60" />
+		<monster name="Elf" x="-1" y="1" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1058" centery="844" centerz="6" radius="1">
+		<monster name="Elf" x="1" y="0" z="6" spawntime="60" />
+		<monster name="Elf Scout" x="0" y="1" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1063" centery="845" centerz="6" radius="1">
+		<monster name="Elf" x="0" y="-1" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1059" centery="853" centerz="6" radius="1">
+		<monster name="Elf" x="-1" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1035" centery="854" centerz="6" radius="1">
+		<monster name="Elf" x="-1" y="-1" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1039" centery="854" centerz="6" radius="1">
+		<monster name="Elf Scout" x="1" y="1" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1053" centery="854" centerz="6" radius="1">
+		<monster name="Elf Scout" x="-1" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1044" centery="960" centerz="6" radius="1">
+		<monster name="White Deer" x="1" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="964" centery="1000" centerz="6" radius="1">
+		<npc name="Aaron" x="-1" y="0" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1062" centery="816" centerz="7" radius="1">
+		<monster name="Elf Scout" x="1" y="-1" z="7" spawntime="60" />
+		<monster name="Elf" x="-1" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1052" centery="818" centerz="7" radius="1">
+		<monster name="Elf" x="0" y="1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1037" centery="819" centerz="7" radius="1">
+		<monster name="Elf" x="0" y="1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1045" centery="820" centerz="7" radius="1">
+		<monster name="Elf" x="-1" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1058" centery="820" centerz="7" radius="1">
+		<monster name="Elf Scout" x="-1" y="-1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1036" centery="822" centerz="7" radius="1">
+		<monster name="Elf" x="0" y="1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1061" centery="822" centerz="7" radius="1">
+		<monster name="Elf" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Elf" x="1" y="1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1042" centery="823" centerz="7" radius="1">
+		<monster name="Elf" x="-1" y="1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1030" centery="824" centerz="7" radius="1">
+		<monster name="Elf" x="-1" y="-1" z="7" spawntime="60" />
+		<monster name="Elf" x="1" y="1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1046" centery="824" centerz="7" radius="1">
+		<monster name="Elf Scout" x="1" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1051" centery="824" centerz="7" radius="1">
+		<monster name="Elf" x="-1" y="-1" z="7" spawntime="60" />
+		<monster name="Elf" x="1" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1023" centery="825" centerz="7" radius="1">
+		<monster name="Rabbit" x="-1" y="-1" z="7" spawntime="60" />
+		<monster name="Rabbit" x="0" y="1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1039" centery="826" centerz="7" radius="1">
+		<monster name="Elf" x="0" y="1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1051" centery="828" centerz="7" radius="1">
+		<monster name="Elf Scout" x="-1" y="-1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1063" centery="829" centerz="7" radius="1">
+		<monster name="Elf Scout" x="1" y="-1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1024" centery="831" centerz="7" radius="1">
+		<monster name="Elf" x="1" y="0" z="7" spawntime="60" />
+		<monster name="Elf" x="0" y="1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1057" centery="831" centerz="7" radius="1">
+		<monster name="Elf" x="-1" y="-1" z="7" spawntime="60" />
+		<monster name="Elf" x="0" y="1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1033" centery="834" centerz="7" radius="1">
+		<monster name="Elf" x="-1" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1040" centery="836" centerz="7" radius="1">
+		<monster name="Elf" x="-1" y="1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1046" centery="836" centerz="7" radius="1">
+		<monster name="Elf" x="0" y="1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1058" centery="839" centerz="7" radius="1">
+		<monster name="Elf" x="1" y="-1" z="7" spawntime="60" />
+		<monster name="Elf" x="-1" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1062" centery="840" centerz="7" radius="1">
+		<monster name="Elf" x="0" y="1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1065" centery="840" centerz="7" radius="1">
+		<monster name="Rabbit" x="0" y="1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1035" centery="842" centerz="7" radius="1">
+		<monster name="Elf" x="-1" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1029" centery="843" centerz="7" radius="1">
+		<monster name="Elf" x="-1" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1036" centery="844" centerz="7" radius="1">
+		<monster name="Elf" x="1" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1044" centery="844" centerz="7" radius="1">
+		<monster name="Elf" x="1" y="-1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1058" centery="844" centerz="7" radius="1">
+		<monster name="Elf" x="0" y="1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1029" centery="846" centerz="7" radius="1">
+		<monster name="Rabbit" x="-1" y="1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1065" centery="848" centerz="7" radius="1">
+		<monster name="Elf" x="1" y="-1" z="7" spawntime="60" />
+		<monster name="Elf" x="-1" y="1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1056" centery="850" centerz="7" radius="1">
+		<monster name="Elf" x="-1" y="1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1038" centery="851" centerz="7" radius="1">
+		<monster name="Elf" x="0" y="-1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1062" centery="851" centerz="7" radius="1">
+		<monster name="Elf" x="-1" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1029" centery="852" centerz="7" radius="1">
+		<monster name="Elf" x="-1" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1053" centery="852" centerz="7" radius="1">
+		<monster name="Rabbit" x="0" y="1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="963" centery="924" centerz="7" radius="1">
+		<monster name="Wyvern" x="-1" y="1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="974" centery="925" centerz="7" radius="1">
+		<monster name="Wyvern" x="-1" y="-1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="970" centery="933" centerz="7" radius="1">
+		<monster name="Wyvern" x="1" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1021" centery="981" centerz="7" radius="1">
+		<monster name="Deer" x="1" y="-1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1035" centery="1000" centerz="7" radius="1">
+		<monster name="Wolf" x="0" y="-1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="964" centery="1001" centerz="7" radius="1">
+		<npc name="Eron" x="0" y="1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1032" centery="1004" centerz="7" radius="1">
+		<monster name="Wolf" x="1" y="-1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="967" centery="1014" centerz="7" radius="1">
+		<npc name="Maximilia" x="0" y="-1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="999" centery="1014" centerz="7" radius="1">
+		<npc name="Taina" x="1" y="0" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1015" centery="1019" centerz="7" radius="1">
+		<npc name="Alexis" x="0" y="-1" z="7" spawntime="60" />
+	</spawn>
+	<spawn centerx="1052" centery="823" centerz="8" radius="1">
+		<monster name="Elf" x="1" y="0" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1043" centery="824" centerz="8" radius="1">
+		<monster name="Elf Scout" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Elf Scout" x="-1" y="0" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1038" centery="827" centerz="8" radius="1">
+		<monster name="Orc" x="1" y="-1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1038" centery="829" centerz="8" radius="1">
+		<monster name="Orc" x="0" y="1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1047" centery="830" centerz="8" radius="1">
+		<monster name="Elf" x="-1" y="1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1041" centery="832" centerz="8" radius="1">
+		<monster name="Elf" x="0" y="1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1051" centery="832" centerz="8" radius="1">
+		<monster name="Orc" x="-1" y="0" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1053" centery="833" centerz="8" radius="1">
+		<monster name="Elf Scout" x="1" y="0" z="8" spawntime="60" />
+		<monster name="Elf" x="0" y="1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1039" centery="836" centerz="8" radius="1">
+		<monster name="Elf Scout" x="-1" y="1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1044" centery="837" centerz="8" radius="1">
+		<monster name="Elf" x="-1" y="-1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1045" centery="838" centerz="8" radius="1">
+		<monster name="Elf" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Elf Scout" x="0" y="1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="975" centery="998" centerz="8" radius="1">
+		<monster name="Rat" x="1" y="0" z="8" spawntime="60" />
+		<monster name="Rat" x="0" y="1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="989" centery="998" centerz="8" radius="1">
+		<monster name="Rat" x="1" y="0" z="8" spawntime="60" />
+		<monster name="Rat" x="-1" y="1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1001" centery="998" centerz="8" radius="1">
+		<monster name="Rat" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Rat" x="-1" y="1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="995" centery="999" centerz="8" radius="1">
+		<monster name="Rat" x="-1" y="0" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1023" centery="1001" centerz="8" radius="1">
+		<monster name="Wolf" x="1" y="-1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="970" centery="1002" centerz="8" radius="1">
+		<monster name="Rat" x="0" y="-1" z="8" spawntime="60" />
+		<monster name="Rat" x="-1" y="1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="982" centery="1004" centerz="8" radius="1">
+		<monster name="Rat" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Rat" x="0" y="1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1021" centery="1004" centerz="8" radius="1">
+		<monster name="Wolf" x="-1" y="-1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1027" centery="1004" centerz="8" radius="1">
+		<monster name="Wolf" x="0" y="-1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1002" centery="1006" centerz="8" radius="1">
+		<monster name="Rat" x="1" y="0" z="8" spawntime="60" />
+		<monster name="Rat" x="0" y="1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1023" centery="1006" centerz="8" radius="1">
+		<monster name="Wolf" x="0" y="1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="995" centery="1008" centerz="8" radius="1">
+		<monster name="Rat" x="0" y="1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="973" centery="1009" centerz="8" radius="1">
+		<monster name="Rat" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Rat" x="1" y="1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="986" centery="1009" centerz="8" radius="1">
+		<monster name="Rat" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Rat" x="0" y="1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1013" centery="1012" centerz="8" radius="1">
+		<monster name="Rat" x="0" y="1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1003" centery="1013" centerz="8" radius="1">
+		<monster name="Rat" x="-1" y="-1" z="8" spawntime="60" />
+		<monster name="Rat" x="1" y="0" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="967" centery="1014" centerz="8" radius="1">
+		<monster name="Rat" x="0" y="-1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="974" centery="1016" centerz="8" radius="1">
+		<monster name="Rat" x="0" y="-1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="980" centery="1018" centerz="8" radius="1">
+		<monster name="Rat" x="1" y="0" z="8" spawntime="60" />
+		<monster name="Rat" x="0" y="1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1011" centery="1019" centerz="8" radius="1">
+		<monster name="Rat" x="1" y="-1" z="8" spawntime="60" />
+		<monster name="Rat" x="-1" y="1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="969" centery="1021" centerz="8" radius="1">
+		<monster name="Rat" x="-1" y="-1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1007" centery="1023" centerz="8" radius="1">
+		<monster name="Rat" x="0" y="-1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="986" centery="1026" centerz="8" radius="1">
+		<monster name="Rat" x="1" y="0" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="990" centery="1029" centerz="8" radius="1">
+		<monster name="Rat" x="-1" y="0" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1011" centery="1030" centerz="8" radius="1">
+		<monster name="Rat" x="-1" y="0" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="998" centery="1035" centerz="8" radius="1">
+		<monster name="Rat" x="0" y="-1" z="8" spawntime="60" />
+		<monster name="Rat" x="-1" y="1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="1008" centery="1035" centerz="8" radius="1">
+		<monster name="Rat" x="1" y="1" z="8" spawntime="60" />
+	</spawn>
+	<spawn centerx="972" centery="997" centerz="9" radius="1">
+		<monster name="Rotworm" x="-1" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="957" centery="998" centerz="9" radius="1">
+		<monster name="Rotworm" x="0" y="-1" z="9" spawntime="60" />
+		<monster name="Carrion Worm" x="-1" y="1" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="981" centery="1001" centerz="9" radius="1">
+		<monster name="Rotworm" x="-1" y="-1" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="964" centery="1003" centerz="9" radius="1">
+		<monster name="Rotworm" x="0" y="-1" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="952" centery="1004" centerz="9" radius="1">
+		<monster name="Rotworm" x="1" y="-1" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="991" centery="1006" centerz="9" radius="1">
+		<monster name="Carrion Worm" x="-1" y="-1" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="974" centery="1009" centerz="9" radius="1">
+		<monster name="Rotworm" x="-1" y="1" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="957" centery="1010" centerz="9" radius="1">
+		<monster name="Rotworm" x="1" y="0" z="9" spawntime="60" />
+		<monster name="Rotworm" x="-1" y="1" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="983" centery="1010" centerz="9" radius="1">
+		<monster name="Rotworm" x="0" y="-1" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="998" centery="1012" centerz="9" radius="1">
+		<monster name="Rotworm" x="0" y="-1" z="9" spawntime="60" />
+		<monster name="Carrion Worm" x="0" y="1" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="965" centery="1014" centerz="9" radius="1">
+		<monster name="Rotworm" x="-1" y="-1" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="979" centery="1018" centerz="9" radius="1">
+		<monster name="Rotworm" x="1" y="-1" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="953" centery="1020" centerz="9" radius="1">
+		<monster name="Rotworm" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Rotworm" x="1" y="1" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="1003" centery="1020" centerz="9" radius="1">
+		<monster name="Rotworm" x="0" y="1" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="990" centery="1021" centerz="9" radius="1">
+		<monster name="Carrion Worm" x="0" y="-1" z="9" spawntime="60" />
+		<monster name="Rotworm" x="1" y="-1" z="9" spawntime="60" />
+		<monster name="Rotworm" x="-1" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="991" centery="1022" centerz="9" radius="1">
+		<monster name="Rotworm" x="1" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="975" centery="1023" centerz="9" radius="1">
+		<monster name="Rotworm" x="0" y="-1" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="961" centery="1024" centerz="9" radius="1">
+		<monster name="Rotworm" x="1" y="1" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="985" centery="1028" centerz="9" radius="1">
+		<monster name="Rotworm" x="0" y="-1" z="9" spawntime="60" />
+		<monster name="Rotworm" x="-1" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="998" centery="1028" centerz="9" radius="1">
+		<monster name="Rotworm" x="-1" y="-1" z="9" spawntime="60" />
+		<monster name="Rotworm" x="0" y="1" z="9" spawntime="60" />
+	</spawn>
+</spawns>

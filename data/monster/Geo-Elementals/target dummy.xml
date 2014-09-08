@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Target Dummy" nameDescription="a target dummy" race="energy" experience="0" speed="0" manacost="0">
+	<health now="50000" max="50000"/>
+	<look type="304" corpse="9801"/>
+	<targetchange interval="5000" chance="1"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="0"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<defenses armor="40" defense="45">
+		<defense name="healing" interval="2000" chance="50" min="150" max="250">
+			<attribute key="areaEffect" value="bluefirework"/>
+		</defense>
+		<defense name="healing" interval="2000" chance="10" min="50000" max="50000">
+			<attribute key="areaEffect" value="bluefirework"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element earthPercent="95"/>
+		<element holyPercent="95"/>
+		<element energyPercent="95"/>
+		<element physicalPercent="70"/>
+		<element icePercent="95"/>
+		<element deathPercent="95"/>
+		<element firePercent="95"/>
+		<element lifedrainPercent="95"/>
+		<element drownPercent="95"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+		<immunity paralyze="1"/>
+	</immunities>
+	<voices interval="2000" chance="5">
+		<voice sentence="I hope you are enjoying your sparring Sir or Ma'am!"/>
+		<voice sentence="Threat level rising!"/>
+		<voice sentence="Engaging in hostile interaction!"/>
+		<voice sentence="Rrrtttarrrttarrrtta"/>
+		<voice sentence="Please feel free to hit me Sir or Ma'am!"/>
+		<voice sentence="Klonk klonk klonk"/>
+		<voice sentence="Self-diagnosis running."/>
+		<voice sentence="Battle simulation proceeding."/>
+		<voice sentence="Repairs initiated!"/>
+	</voices>
+</monster>

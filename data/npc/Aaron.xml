@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Aaron" script="default.lua" walkinterval="1300" speed="110" walkradius="1" floorchange="0" speechbubble="4">
+	<health max="1250" now="1250"/>
+	<look type="128" head="59" body="25" legs="30" feet="39" addons="1" mount="0"/>
+	<parameters>
+		<!--MESSAGES-->
+		<parameter key="message_greet" value="Greetings, |PLAYERNAME|. I sell tools &amp; equipment, just ask me for a {trade}."/>
+		<parameter key="message_farewell" value="See you later, |PLAYERNAME|!"/>
+		<parameter key="message_buy" value="Do you want to buy |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?"/>
+		<parameter key="message_onbuy" value="Here you are, travel safe."/>
+		<parameter key="message_bought" value="Bought |ITEMCOUNT|x |ITEMNAME| for |TOTALCOST| gold."/>
+		<parameter key="message_sell" value="Do you want to sell |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?"/>
+		<parameter key="message_onsell" value="Thank you, here you got |TOTALCOST| gold."/>
+		<parameter key="message_sold" value="Sold |ITEMCOUNT|x |ITEMNAME| for |TOTALCOST| gold."/>
+		<parameter key="message_missingmoney" value="Sorry but you don't have enough money. Come back later!"/>
+		<parameter key="message_needmoney" value="You don't have enough money."/>
+		<parameter key="message_missingitem" value="You don't have so many."/>
+		<parameter key="message_needitem" value="You do not have this object."/>
+		<parameter key="message_needspace" value="You do not have enough capacity."/>
+		<parameter key="message_needmorespace" value="You do not have enough capacity for all items."/>
+		<parameter key="message_idletimeout" value="Then dont buy anything."/>
+		<parameter key="message_decline" value="Then not."/>
+		<parameter key="message_sendtrade" value="Of course, just browse through my wares."/>
+		<parameter key="message_oncloseshop" value="Thank you, come back whenever you're in need of some traveling equipment!"/>
+		<parameter key="message_alreadyfocused" value="|PLAYERNAME|, I am already talking to you."/>
+		<parameter key="message_walkaway_male" value="How rude! Just walking away like that."/>
+		<parameter key="message_walkaway_female" value="How rude! Just walking away like that."/>
+		<!--KEYWORDS-->
+		<parameter key="module_keywords" value="1"/>
+		<parameter key="keywords" value="fuck;asdf;asd"/>
+		<parameter key="keyword_reply1" value="Watch your tounge kid!"/>
+		<parameter key="keyword_reply2" value="What are you trying to say?"/>
+		<parameter key="keyword_reply3" value="Excuse me?"/>
+		<!--SHOP-->
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_buyable" value="basket,1989,6;book,1955,15;book,1971,15;candelabrum,2041,8;candlestick,2047,2;crowbar,2416,260;fishing rod,2580,150;greeting card,6387,30;book,1958,15;inkwell,2600,10;machete,2420,35;green backpack,1998,20;pick,2553,50;plate,2035,6;rope,2120,50;scythe,2550,50;shovel,2554,50;torch,2050,5;valentine's card,6538,30;watch,2036,20;worm,3976,1;green bag,1991,5"/>
+		<parameter key="shop_sellable" value="book,1963,50;closed trap,2578,175;crowbar,2416,50;fishing rod,2580,40;mechanical fishing rod,10223,15000;book,1965,50;inkwell,2600,8;machete,2420,6;pick,2553,15;rope,2120,15;scythe,2550,10;shovel,2554,8;watch,2036,6;wooden hammer,2556,20"/>
+	</parameters>
+</npc>
