@@ -1,5 +1,3 @@
-dofile('data/zombie_system.lua')
-
 function onStepIn(cid, item, position, fromPosition)
     local player = Player(cid)
     if not player then
@@ -19,7 +17,7 @@ function onStepIn(cid, item, position, fromPosition)
         if ze_joined_count < ze_max_players then
             player:teleportTo(ze_waiting_room_pos, false)
             ze_joined_count = ze_joined_count + 1
-            broadcastMessage(""..player:getName().." has joined the zombie event! ["..ze_joined_count.."/"..ze_max_players.."].", MESSAGE_STATUS_WARNING)
+            broadcastMessage(player:getName().." has joined the zombie event! ["..ze_joined_count.."/"..ze_max_players.."].", MESSAGE_STATUS_WARNING)
             player:setStorageValue(ze_join_storage, 1)
         else
             player:teleportTo(fromPosition, true)

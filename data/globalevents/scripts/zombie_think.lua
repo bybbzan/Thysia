@@ -1,5 +1,3 @@
-dofile('data/zombie_system.lua')
-
 function onTime(interval)
     if ze_started == false then
         ze_started = true

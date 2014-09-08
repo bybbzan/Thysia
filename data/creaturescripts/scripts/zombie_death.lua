@@ -1,5 +1,3 @@
-dofile('data/zombie_system.lua')
-
 function onDeath(cid, corpse, killer, mostDamage, unjustified, mostDamage_unjustified)
     local monster = Monster(cid)
     monster:say("OH SH*T! >.<", TALKTYPE_ORANGE_2)
@@ -31,7 +29,7 @@ function onPrepareDeath(cid, killer)
                 winner:teleportTo(winner:getTown():getTemplePosition(), false)
                 local trophy = winner:addItem(ze_trophy, 1)
                 trophy:setAttribute(ITEM_ATTRIBUTE_DESCRIPTION, "["..winner:getName().."] "..ze_trophy_desc)
-                broadcastMessage(""..winner:getName().." is the winner of zombie event versus "..ze_zombie_count.." Zombies!", MESSAGE_STATUS_WARNING)
+                broadcastMessage(winner:getName().." is the winner of zombie event versus "..ze_zombie_count.." Zombies!", MESSAGE_STATUS_WARNING)
             end
             doClearZombieArena()
             resetVariables()
