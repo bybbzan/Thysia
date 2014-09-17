@@ -14,6 +14,7 @@ function onPrepareDeath(cid, killer)
         player:teleportTo(player:getTown():getTemplePosition(), false)
         player:setStorageValue(ze_join_storage, 0)
         player:addHealth(player:getMaxHealth())
+		Game.broadcastMessage(player:getName() .. " was killed. " .. ze_joined_count .. " players left in the arena.", MESSAGE_STATUS_WARNING)
         if ze_joined_count <= 1 then --Event ended, someone won!
             local players = Game.getPlayers()
             for _, tmpPlayer in ipairs(players) do
@@ -24,12 +25,15 @@ function onPrepareDeath(cid, killer)
             end
             winner = Player(winner)
             if winner ~= nil then
-			    local rewardId = { 15546, 5919, itemId, itemId }
-                winner:addItem(rewardId[math.random(#rewardId)], 1)
+			    local rewardId = { 15546, 5919 }
+				local random = rewardId[math.random(#rewardId)]
+                winner:addItem(random, 1)
                 winner:teleportTo(winner:getTown():getTemplePosition(), false)
                 local trophy = winner:addItem(ze_trophy, 1)
-                trophy:setAttribute(ITEM_ATTRIBUTE_DESCRIPTION, "["..winner:getName().."] "..ze_trophy_desc)
-                broadcastMessage(winner:getName().." is the winner of zombie event versus "..ze_zombie_count.." Zombies!", MESSAGE_STATUS_WARNING)
+				if trophy then
+					trophy:setAttribute(ITEM_ATTRIBUTE_DESCRIPTION, "["..winner:getName().."] "..ze_trophy_desc)
+				end
+                Game.broadcastMessage(winner:getName() .. " is the winner of zombie event versus " .. ze_zombie_count .. " Zombies! He won a " .. ItemType(random):getName() .. ".", MESSAGE_STATUS_WARNING)
             end
             doClearZombieArena()
             resetVariables()
